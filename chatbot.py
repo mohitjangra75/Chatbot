@@ -8,11 +8,11 @@ def send():
     elif(e.get() == 'hii'):
         text.insert(END, "\n" + "Bot: hello")
     elif(e.get() == 'whats up'):
-        text.insert(END, "\n" + "Bot: i am fine how are you?")
+        text.insert(END, "\n" + "Bot: I am fine how are you?")
     elif(e.get() == 'i am good'):
         text.insert(END, "\n" + "Bot: glad to hear this")
     elif (e.get() == 'how are you?'):
-        text.insert(END, "\n" + "Bot: i'm fine and you?")
+        text.insert(END, "\n" + "Bot: I'm fine and you?")
     elif (e.get() == "i'm fine too"):
         text.insert(END, "\n" + "Bot: nice to hear that")
     else:
